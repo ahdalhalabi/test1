@@ -1,0 +1,57 @@
+.home{
+background-image: url(../imgs/bg.jpg);
+background-position: center center;
+background-size: cover;
+height: 100vh;
+text-align: center;
+}
+
+.home1{
+    background-color: rgba(0, 0, 0, 0.5);
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+color: white;
+}
+.home2 h2::after{
+    content:"|";
+    animation-name:ahd;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ahd{
+    0%{content:"|";}
+    10%{content:"p|";}
+    15%{content:"pr|";}
+    20%{content:"pro|";}
+    25%{content:"prog|";}
+    30%{content:"progr|";}
+    35%{content:"progra|";}
+    40%{content:"program|";}
+    45%{content:"progra|";}
+    50%{content:"progr|";}
+    55%{content:"prog|";}
+    60%{content:"prog|";}
+    65%{content:"pro|";}
+    70%{content:"pr|";}
+    75%{content:"p|";}
+    80%{content:"|";}
+}
+.sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .img{
+    margin-left:80px;
+    border-radius: 3px;
+} */
+.sec3{
+    margin-left: 25%;
+}
+.img{
+    box-shadow: 1px 3px 4px 5px red;
+}
